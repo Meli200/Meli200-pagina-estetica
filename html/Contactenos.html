@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Valeria Mena, Melissa Jimenez">
+    <meta name="owner" content="Instituto Nacional de Aprendizaje">
+    <meta name="description" content="Esta es una pagina de estetica.">
+    <meta name="keywords" content="Estetica ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- estos property en los trabaajos -->
+    <meta property="og:title" content="Estetica">
+    <meta property="og:description" content="Esta es una pagina de estetica.">
+    <meta property="og:image" content="http://www.nombrePagina/multimedia/imagenes/logo-empresa.png">
+    <meta property="og:type" content="website">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+        <!--- aqui empieza el menu responsive-->
+        <nav class="menu-responsive">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbnt">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+            <img id="imagen" src="../multimedia/img/logo copia tamaño.jpeg" alt="logo de la empresa" class="logo">
+            </a>
+        <!--- aqui empieza el menu-->
+        <ul>
+            <li><a class="menu" href="../index.html">Inicio</a></li>
+            <li><a class="menu" href="../html/Natalie.html">Natalie</a></li>
+            <li><a class="menu" href="../html/Servicios.html">Servicios</a></li>
+            <li><a class="menu" href="../html/Noticias.html">Noticias</a></li>
+            <li><a class="menu" href="../html/Promociones.html">Promociones</a></li>
+            <li><a class="menu" href="../html/Contactenos.html">contactos</a></li>
+            <a class="equis" href="">
+                <i class="fas fa-times"></i>
+            </a>
+        </ul>
+        </nav>
+        <!--- aqui empieza el formulario-->
+        <section class="imagen-contactos">
+            <p id="conctactos">Contáctenos</p>
+        </section>
+
+        <div class="contactenos-principal">
+
+            <div class="formulario-contacto">
+                <h1 id="h1-formulario">Formulario De Contacto</h1>
+                <h3>Escribenos y en breve nos pondremos en contacto con tigo</h3>
+                <form action="">
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre:
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu Nombre" >
+                    </p>
+                    <p>
+                        <label for="apellido" class="colocar_apellido">Apellido
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="apellido" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu apellido" >
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email:
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu email" >
+                    </p>
+                    <p>
+                        <label for="telefono" class="colocar_telefono">Telefono:
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono" >
+                    </p>
+
+                    <p>Si su selección es Teléfono, seleccione fecha y hora:</p>
+                <label for="fecha">Fecha:</label>
+                <input id="fecha" type="date">
+
+                <label for="hora">Hora:</label>
+                <input id="hora" type="time" min="9:00" max="18:00">
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje:
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aqui tu comentario..."></textarea>
+                    </p>
+                    <input type="submit" name="btnBoton" value="Enviar">
+                </form>
+
+            </div>
+
+            <div class="imagen-contacto">
+                <img src="../multimedia/img/cosmetic.contactos.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div id="contenedor-footer">  
+                <label for="correo" class="icono">
+                    <i class="far fa-envelope"></i>
+                </label>
+                <label for="instagram" class="icono">
+                    <i class="fab fa-instagram"></i>
+                </label>
+                <label for="instagram" class="icono">
+                    <i class="fab fa-facebook-f"></i>
+                </label>
+            </div> 
+    
+        </footer>
+
+        <section class="terminosUso">
+            <a href="../html/terminos-uso.html"><p>Terminos de Uso</p></a>
+            <a href="../html/mapaSitio.html"><p>Mapa Sitio</p></a>
+        </section> 
+        <section class="copy">
+            <small>Derechos Reservados &copy; 2023</small>
+        </section>
+    </body>

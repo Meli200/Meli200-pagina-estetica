@@ -1,0 +1,633 @@
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+*::before, *::after, *{
+    box-sizing: inherit;
+}
+.clear-fix{
+    clear: both;
+    float: none;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #d4af37;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ESTILOS DEL MENU  */
+nav{
+    background-color: #2fcdcd;
+    height: 80px;
+    width: 100%;
+    
+}
+.enlace{
+    position:absolute;
+    padding: 20px 50px;
+}
+.logo{
+    position: absolute;
+    margin-top: auto;
+    height: 60px;
+    text-align: center;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 16px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 10px 10px 10px
+}
+li a.active, li a:hover{
+    color: white;
+    background-color: #d4af37;
+    transition:5,s;
+}
+.checkbnt{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 60px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* ESTILOS DEL HEADER */
+header{
+    background: url(../multimedia/img/WhatsApp_Image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+header img{
+    padding-bottom: 5px;
+}
+.equis{
+    display: none;
+}
+
+.principal p{ 
+    font-size: 3rem;
+    color: #d4af37;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    display: block;
+}
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #2fcdcd;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+footer label{
+    margin:0px 30px;
+    display:inline-block;
+}
+
+.terminosUso{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #1fa9a9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.terminosUso a p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #1fa9a9;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.copy{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #149797;
+}
+
+#principal-index img{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#principal-index .entrada-blog{
+    text-align: center;
+}
+
+.principal-index h1{
+    padding: 40px 0px;
+}
+
+/* ESTILO DE LA PAGINA DE NATALIE */
+main h1{
+   text-align: center;
+   padding: 40px 0px;
+}
+
+.contenedor{
+    margin: 0 auto !important;
+    margin-bottom: 40px !important;
+}
+
+.layout-shifter{
+    text-align: center;
+    margin-right: 12px;
+    margin:10px 0px 0px 30px !important;
+    justify-content: space-evenly !important;
+}
+.layout-shifter p{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+
+.segundo-contenedor article img{
+    display: none;  
+}
+
+.segundo-contenedor article{
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.segundo-contenedor{
+    margin-left: 0px;
+    background: none;
+    margin: 40px 0px;
+    padding: 10px;
+
+}
+.segundo-contenedor h2, h2.servicios, main h2{
+    text-align: center;    
+    background: none;
+    color: #d4af37;
+    padding-bottom: 20px;
+}
+
+.segundo-contenedor p{
+    font-size: 20px;
+}
+
+/* ESTILOS DE SERVICIOS */
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #d4af37;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+img .servicios{
+    width: 30px;
+    height: 30px;
+    border-bottom: #d4af37 1px solid;
+}
+nav .gmailbnt{
+    font-size: 50px;
+}
+nav .instagrambnt{
+    font-size: 40px;
+    margin-right: 80px;
+}
+
+main .tres-columnas{
+    border-bottom: #d4af37 1px solid;
+    padding-bottom: 40px;
+}
+
+h2.servicios, main h1{
+    font-size: 50px;
+    color: #836c22 
+    
+}
+
+/* ESTILOS DE Noticias */
+
+.principal p{ 
+    font-size: 3rem;
+    color: #d4af37;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    display: block;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #836c22 ;
+    text-align: center;
+}
+.contenedor-Dos{
+    text-align: center;
+    margin-left: 0px;
+    background: none;
+    margin: 40px 0px 0px 0px;
+}
+.contenedor-Dos h2{
+    text-align: center;
+    margin-left: 0px;
+    margin: 10px 0px;
+    background: none;
+    color: #d4af37;
+}
+.contenedor-Dos img{
+    width: 50%;
+    height: 30%;
+}
+
+.contenedor-Dos p{
+    margin: 0px 50px 0px 50px;
+}
+
+
+@media(min-width:888px){
+    .contenedor-Dos article{
+        width: 70%;
+    }
+}
+
+.contenedor-Dos article{
+    margin: 0 auto;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.contenedor-Dos article h2{    
+    display: inline-block;
+    border-bottom: double 1px #e7c85f;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.contenedor-Dos article p{
+    line-height: 2;
+   margin-bottom: 40px;
+}
+
+.contenedor-Dos article img{
+    border-radius: 10px;
+}
+
+.contenedor-Dos{
+    margin-bottom: 10px;
+}
+/*estilos Promociones*/
+.entrada-blog h3{
+    color: #d4af37;
+    font-size: 30px;
+    margin: 30px 0px 0px 0px;
+}
+.entrada-blog p{
+    margin: 30px 0px 0px 0px;
+}
+
+/*estilos Contactos*/
+
+.contactenos-principal div.imagen-contacto{
+    display: none;
+}  
+
+.contactenos-principal img{
+    border-radius: 20px
+}
+
+@media(min-width:858px){
+    .contactenos-principal{
+        display: flex;
+        width: 90%;
+        margin: 80px auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .contactenos-principal div{
+        flex-basis: calc(30% - 2rem);
+    }   
+
+    .contactenos-principal div.imagen-contacto{
+        display: block;
+        flex-basis: calc(60% - 2rem);
+        margin: auto auto;
+    }   
+}
+
+.formulario-contacto{
+    display: grid;
+    width: 450px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #ebcc68;
+    padding-left: 30px;
+}
+input{
+    background-color: rgb(251, 251, 251);
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #836c22;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+label{
+    display: block;
+    float: center;
+}
+button p{
+color: #fff;
+}
+span{
+    color: 836c22;
+}
+.aviso{
+    font-size: 13px;
+    color: black;
+        }
+        .imagen-contactos
+        {
+        background: url(../multimedia/img/img-meli-vale.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: calc(100vh - 80px);}
+        .imagen-contactos p{ 
+            font-size: 3rem;
+            color: #d4af37;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50% );
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            display: block;
+        }
+/* ESTILOS DE LA GALERIA */
+
+.galeria{
+    text-align: center;
+}
+
+.galeria a{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* ESTILOS DEl mapa del sitio */
+.principal-Mapa{
+    margin: 0 auto;
+}
+
+.entrada-blog h3{
+    color: #d4af37;
+    font-size: 30px;
+    margin: 30px 0px 0px 0px;   
+}
+
+.principal-Mapa section{
+    margin: 0 auto;
+}
+.principal-Mapa article{
+    width: 100%;
+    text-align: center;
+}
+
+a.mapa{
+    color: black;
+}
+/* ESTILOS DEl terminos y uso */
+.termi{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.termi h1{
+    margin-bottom: 50px;
+}
+
+.termi h2, h3{
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    #frase{
+        display:none;
+    }
+}
+
+@media(max-width:858px){
+    .checkbnt{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 67vh;
+        background:#2fcdcd;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .equis{
+        display: block;
+        }    
+}
+@media(min-width:768px){
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media(min-width:888px){
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+        
+}
+
+/* MEDIA QUERIES DE LA PAGINA DE NATALIE */
+
+@media(min-width:768px){
+    .contenido-principal{
+        justify-content: center;
+    }
+
+    .segundo-contenedor article{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 2px solid #d4af37;
+    }
+    
+    
+    .segundo-contenedor article p{
+            flex: 0 0 calc(50% - 5rem);
+    }
+    
+    .segundo-contenedor article img{
+        display: block;;
+            flex: 0 0 calc(40% - 5rem);
+            width: 50px !important;    
+    }
+}
+
+.entrada-blog{
+    flex: 0 0 calc(50% - 2rem);
+}
+@media(min-width:982px){
+    .layout-shifter{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .contenido-principal{
+        flex: 0 0 calc(40.3% - 5rem);
+    }
+    aside{
+        flex: 0 0 calc(50% - 5rem);
+    }
+
+    .segundo-contenedor article img{
+        flex: 0 0 calc(30% - 5rem);  
+    }
+}
+
+@media(min-width:1100px){
+    .contenido-principal{
+        display: block;
+    }
+}
+
+/* MEDIA QUERIES DE SERVICIOS */
+
+@media(min-width:768px){
+    .tres-columnas{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+}
+/* MEDIA QUERIES noticias */
+@media(min-width:768px){
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+    }
+    @media(min-width:888px){
+        .dos-columnas{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2rem;
+        }
+        }
+
+
+
+
+
+
+
+
